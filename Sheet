@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <link href='./style.css' rel='stylesheet'>
+</head>
+
+<h1>HTML</h1>
+
+<h2>HTML Elements</h2>
+
+<h3>HTML Tags</h3>
+
+<table>
+  <tr>
+    <th scope="col">Tag</th>
+    <th scope="col">Name</th>
+      <th scope="col">Description</th>
+  </tr>
+  <tbody>
+    <tr>
+      <th>&lt;li&gt;</th>
+      <td>List Item</td>
+      <td>Creates list items; ordered and unordered lists</td>
+    </tr>
+    <tr>
+      <th>&lt;div&gt;</th>
+      <td>Div</td>
+      <td>A container dividing an HTML doc into sections; can contain flow content like headings, paragraphs, links, images, etc.</td>
+    </tr>
+    <tr>
+      <td>&lt;head&gt;</td>
+      <td>Head</td>
+      <td>Contains general information about an HTML page that isnt displayed on the page itself, like titles and links to stylesheets.</td>
+    </tr>
+    <tr>
+      <td>&lt;title&gt;</td>
+      <td>Title</td>
+      <td>Defines the title of an HTML document, can only be contained inside a documents &lt;head&gt; element.</td>
+    </tr>
+    <tr>
+      <td>&lt;h1&gt;&lt;h6&gt;</td>
+      <td>Heading</td>
+      <td>6 levels of heading elements, ordered from highest to lowest.</td>
+    </tr>
+    <tr>
+      <td>&lt;p&gt;</td>
+      <td>Paragraph</td>
+      <td>Contains and displays a block of text.</td>
+    </tr>
+    <tr>
+      <td>&lt;body&gt;</td>
+      <td>Body</td>
+      <td>The content of an HTMl doc; it is the content rendered on the web browsers.</td>
+    </tr>
+    <tr>
+      <td>&lt;a&gt;</td>
+      <td>Anchor</td>
+      <td>Create hyperlinks in an HTML document.</td>
+    </tr>
+    <tr>
+      <td>&lt;section&gt;</td>
+      <td>Section</td>
+      <td>Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</td>
+    </tr>
+    <tr>
+      <td>&lt;article&gt;</td>
+      <td>Article</td>
+      <td>To write independent content for theme of &lt;section&gt;.</td>
+    </tr>
+    <tr>
+      <td>&lt;aside&gt;</td>
+      <td>Aside</td>
+      <td>To mark additional information that can enhance another element, usually in sidebar where it doesnt obstruct.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>HTML Attributes</h3>
+
+<table>
+  <tr>
+    <th scope="col">Tag</th>
+    <th scope="col">Name</th>
+      <th scope="col">Description</th>
+  </tr>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>ID</td>
+      <td>Unique ID elements to differentiate between different elements.</td>
+    </tr>
+    <tr>
+      <td>href</td>
+      <td>Hyperlink Reference</td>
+      <td>Determines the location the anchor element points to.</td>
+    </tr>
+    <tr>
+      <td>target</td>
+      <td>Target</td>
+      <td>Tells the browser to open the hyperlink in a new tab in modern browsers, or in a new window in older browsers or if the browser has had settings changed to open hyperlinks in a new window.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>HTML Tables</h2>
+
+<h3>Table Tags</h3>
+
+  <table>
+    <tr>
+      <th scope="col">Tag</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+    </tr>
+    <tbody>
+      <tr>
+        <td>&lt;table&gt;</td>
+        <td>Table</td>
+        <td>The wrapper element for all HTML tables.</td>
+      </tr>
+      <tr>
+        <td>&lt;thead&gt;</td>
+        <td>Table Head</td>
+        <td>The set of rows defining the column headers in a table.</td>
+      </tr>
+      <tr>
+        <td>&lt;tbody&gt;</td>
+        <td>Table Body</td>
+        <td>The set of rows containing actual table data.</td>
+      </tr>
+      <tr>
+        <td>&lt;tr&gt;</td>
+        <td>Table Row</td>
+        <td>The table row container.</td>
+      </tr>
+      <tr>
+        <td>&lt;td&gt;</td>
+        <td>Table Data</td>
+        <td>The table data container.</td>
+      </tr>
+      <tr>
+        <td>&lt;tfoot&gt;</td>
+        <td>Table Foot</td>
+        <td>The set of rows defining the footer in a table.</td>
+      </tr>
+    </tbody>
+  </table>
+
+<h3>Table Attributes</h3>
+
+  <table>
+    <tr>
+      <th scope="col">Tag</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+    </tr>
+    <tbody>
+      <tr>
+        <td>&lt;colspan&gt;</td>
+        <td>Column Span</td>
+        <td>Defines how many columns a td element should span.</td>
+      </tr>
+      <tr>
+        <td>&lt;rowspan&gt;</td>
+        <td>Row Span</td>
+        <td>Defines how many rows a td element should span.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</html>
